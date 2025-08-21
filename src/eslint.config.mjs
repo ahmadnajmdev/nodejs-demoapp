@@ -2,6 +2,7 @@ import globals from 'globals'
 import js from '@eslint/js'
 import eslintConfigPrettier from 'eslint-config-prettier'
 
+
 export default [
   js.configs.recommended,
   eslintConfigPrettier,
@@ -31,4 +32,4 @@ export default [
       'prefer-const': 'error',
     },
   },
-]
+];
